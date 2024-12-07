@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import * as ICONS from 'react-bootstrap-icons'
 import Home from './Home'
-import Faq from './faq'
+import Faq from './Faq'
 import Footer from './Footer'
 import Nav from './Nav'
 

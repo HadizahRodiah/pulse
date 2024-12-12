@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="bg-green-200">
-      <div className="mx-5 md:mx-20">
+      <div className="mx-5 md:mx-20 pt-20">
         {/* Hero Section */}
         <div className="text-center px-4 md:px-10 mx-auto justify-center">
           <h1 className="text-black text-2xl md:text-5xl font-bold pt-10 md:pt-20">
@@ -58,7 +58,7 @@ const Home = () => {
               </button>
               <p className="font-bold text-sm md:text-lg mt-3 mb-2">GET IT ALL, PLUS:</p>
             </div>
-            <div className="text-left px-5 md:px-10">
+            <div className="text-left px-5 md:px-10 mb-5">
               <ul>
                 <li>Manage cash flow across multiple financial accounts</li>
                 <li>Invite your investors, bookkeeper, or management team</li>
@@ -70,10 +70,10 @@ const Home = () => {
 
           {/* Premium Plan */}
           <div className="w-full md:w-96">
-            <h1 className="bg-gray-300 text-center text-sm md:text-lg px-4 py-2 text-gray-600">
+            <h1 className="bg-gray-300 text-center text-sm md:text-lg px-4 py-2 text-gray-600 rounded-t-lg">
               Complex business with multiple financial accounts or currencies?
             </h1>
-            <div className="bg-white border-2 border-gray-300 rounded-lg">
+            <div className="bg-white border-2 border-gray-300 rounded-b-lg">
               <div className="text-center px-5 pt-3">
                 <h1 className="font-bold text-2xl md:text-3xl">Unlock Extra Features</h1>
                 <p className="text-gray-600 font-light text-lg md:text-2xl mt-2">
@@ -84,7 +84,7 @@ const Home = () => {
                 </button>
                 <p className="font-bold text-sm md:text-lg mt-4">GET IT ALL, PLUS:</p>
               </div>
-              <div className="text-left px-5 md:px-10 pb-6">
+              <div className="text-left px-5 md:px-10 pb-6 mb-5">
                 <ul>
                   <li>Manage cash flow across unlimited financial accounts</li>
                   <li>Localized cash flow reporting and projections</li>

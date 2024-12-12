@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div className="bg-green-200">
       <nav className="w-full bg-green-200 fixed top-0 left-0 z-50 overflow-x-hidden">
-      <div className="flex items-center justify-between px-4 md:px-10 pt-10 md:pt-0">
+      <div className="flex items-center justify-between px-4 md:px-10 md:pt-0">
         {/* Logo */}
         <h1 className="text-4xl text-green-800 font-bold m-4">PULSE</h1>
 
@@ -58,7 +58,7 @@ const Nav = () => {
         <div
           className={`${
             isOpen ? 'block' : 'hidden'
-          } md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 md:items-center`}
+          } md:flex flex-col md:flex-row mt-10 space-y-2 md:space-y-0 md:space-x-4 md:items-center`}
         >
           <p className="text-green-800 font-bold mx-2">Features</p>
           <p className="text-green-800 font-bold mx-2">Customers Stories</p>

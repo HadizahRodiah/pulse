@@ -6,7 +6,7 @@ const Home = () => {
       <div className="mx-5 md:mx-20 pt-20">
         {/* Hero Section */}
         <div className="text-center px-4 md:px-10 mx-auto justify-center">
-          <h1 className="text-black text-2xl md:text-5xl font-bold pt-10 md:pt-20">
+          <h1 className="text-black text-4xl md:text-5xl font-bold pt-10 md:pt-20">
             Try Pulse free for 30 days
           </h1>
           <p className="mt-3 text-sm md:text-lg">

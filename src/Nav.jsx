@@ -12,7 +12,7 @@ const Nav = () => {
       <nav className="w-full bg-green-200 fixed top-0 left-0 z-50 overflow-x-hidden">
       <div className="flex items-center justify-between px-4 md:px-10 md:pt-0">
         {/* Logo */}
-        <h1 className="text-4xl text-green-800 font-bold m-4">PULSE</h1>
+        <h1 className="text-4xl text-green-800 font-bold my-4">PULSE</h1>
 
         {/* Hamburger Menu */}
         <div className="md:hidden">
